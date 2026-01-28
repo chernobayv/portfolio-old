@@ -45,7 +45,7 @@ profile:
     Outside of work, I enjoy <em>art and music</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[chernobayv05@gmail.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
 
 # # =====================================================
-# # 🎓 Education Section
+# # 🎓 Education Section 
 # # =====================================================
 
 education:
@@ -60,7 +60,7 @@ education:
     logo: "/images/ntu_logo.svg"
 
 # # =====================================================
-# # 💼 Work Experience Section
+# # 💼 Work Experience Section 
 # # =====================================================
 
 workExperience:
@@ -80,7 +80,7 @@ workExperience:
     logo: "https://cubis.be/wp-content/uploads/2025/02/SAP_2011_logo.svg.png"
 
 # # =====================================================
-# # 🎤 Presentations / Talks Section
+# # 🎤 Presentations / Talks Section 
 # # =====================================================
 
 talks:
@@ -88,28 +88,28 @@ talks:
     title: "How Robotics Education Shaped my Future"
     organization: "FIRST Canada"
     date: "Oct 15, 2025"
-    link: "https://example.com/your-talk-link"
+    link: "https://www.instagram.com/p/DBND5mFuIv3"
     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
 
   - category: "Workshop"
     title: "How to Network"
-    organization: "University of Illinois Urbana-Champaign (UIUC)"
-    date: "Sep 4, 2019"
-    link: null
+    organization: "FIRST Canada - Girls and Allies Conference"
+    date: "Nov 9, 2025"
+    link: "https://www.flickr.com/photos/firstcanada/albums/72177720321901483/"
     image: "https://pm25.github.io/images/uiuc-workshop.webp"
 
   - category: "Podcast"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
+    title: "Windsor-Essex and McMaster FIRST Robotics Competition Recap"
+    organization: "FIRST Canada"
+    date: "Apr 1, 2025"
+    link: "https://www.youtube.com/watch?v=7Ul9qlsbtbI"
     image: null
     
   - category: "Podcast"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
+    title: "Centennial and Niagara College FRC Competition Recap"
+    organization: "FIRST Canada"
+    date: "Mar 11, 2025"
+    link: "https://www.youtube.com/watch?v=KnB5RduakzU"
     image: null
 
 # # =====================================================
@@ -146,7 +146,7 @@ services:
     image: null
 
 # # =====================================================
-# # 🛠️ Skills Section
+# # 🛠️ Skills Section 
 # # =====================================================
 
 skills:
@@ -167,18 +167,18 @@ skills:
       description: null
 
   Web:
-    - name: "React"
+    - name: "SAP BTB"
       logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
       proficiency: Advanced
       description: null
 
-    - name: "Typescript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
+    - name: "Excel"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg/960px-Microsoft_Office_Excel_%282019%E2%80%932025%29.svg.png"
       proficiency: Fluent
       description: null
 
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+    - name: "Google API"
+      logo: "https://pipedream.com/s.v0/app_mvNhoj/logo/orig"
       proficiency: Fluent
       description: null
 
@@ -188,39 +188,39 @@ skills:
       description: null
 
   Machine Learning:
-    - name: "PyTorch"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
+    - name: "OpenAI"
+      logo: "https://www.svgrepo.com/show/306500/openai.svg"
       proficiency: Experienced
       description: null
 
-    - name: "TensorFlow"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
+    - name: "Google Gemini"
+      logo: "https://static.vecteezy.com/system/resources/previews/055/687/065/non_2x/gemini-google-icon-symbol-logo-free-png.png"
       proficiency: Fluent
       description: null
 
-    - name: "Keras"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
+    - name: "NVDIA "
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lkrqKUowZdLozuN9nWkiMpMtsNVqovkc4w&s"
       proficiency: Fluent
       description: null
 
   Research:
     - name: "Machine Learning"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2020 - Current
+      proficiency: 2024 - Current
       description: "General machine learning methods and applied research."
 
-    - name: "Representation Learning"
+    - name: "Physical AI"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - 2025
-      description: "Learning meaningful embeddings and feature representations from data."
+      proficiency: 2026 - Current
+      description: "Optimization of processes with the help of AI, utilizing NVDIA, OpenAI, and Google Gemini."
 
   Language:
     - name: "English"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Fluent
-      description: "Professional working proficiency."
+      proficiency: Native
+      description: "Native Fluency"
 
     - name: "Taiwanese Hokkien"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Native
-      description: "Native fluency."
+      proficiency: Fluent
+      description: "Professional working proficiency."
