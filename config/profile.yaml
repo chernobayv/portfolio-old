@@ -7,7 +7,7 @@ profile:
   headline: "Computer Engineering Student @ Toronto Metropolitan University | Physical AI Intern @ SAP"
   email: "chernobayv05@gmail.com"
   location: "Toronto, ON"
-  profileImage: "https://github.com/pm25.png" # Update this to your actual photo path
+  profileImage: "public/images/vc_headshot.JPG" # Update this to your actual photo path
 
   links:
     - name: "LinkedIn"
