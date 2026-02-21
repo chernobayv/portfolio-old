@@ -7,7 +7,7 @@
 
 sidebar:
   userName: "Victoria Chernobay" # Name displayed at the top of the sidebar
-  profileImage: https://github.com/shadcn.png # Profile image URL
+  profileImage: public/images/IMG_1277 (1).JPG # Profile image URL
   sections:
     - title: About Me
       url: ""
