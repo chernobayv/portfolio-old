@@ -1,22 +1,13 @@
 # =====================================================
-# Data displayed on the Home (About Me) page.
-#
-# 💡 Tip for Images / Logo:
-# You can use either:
-# 1. A full URL (e.g., https://example.com/logo.png)
-# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
-# =====================================================
-
-# =====================================================
 # 👤 Personal Information
 # =====================================================
 
 profile:
   name: "Victoria Chernobay"
-  headline: "Student @ Toronto Metropolitan University"
+  headline: "Computer Engineering Student @ Toronto Metropolitan University | Physical AI Intern @ SAP"
   email: "chernobayv05@gmail.com"
   location: "Toronto, ON"
-  profileImage: "https://github.com/pm25.png"
+  profileImage: "https://github.com/pm25.png" # Update this to your actual photo path
 
   links:
     - name: "LinkedIn"
@@ -25,10 +16,10 @@ profile:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
-    - name: "Résumé"
-      url: "/pdf/sample-resume.pdf"
+    - name: "Portfolio"
+      url: "https://chernobayv.github.io/portfolio/"
       icon:
-        name: "FaRegIdBadge"
+        name: "FaGlobe"
         package: "react-icons/fa6"
 
     - name: "Github"
@@ -37,12 +28,12 @@ profile:
         name: "FaGithub"
         package: "react-icons/fa6"
 
-
-  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>Victoria</strong>, an <em>engineering student</em> passionate about <em>new and emerging tech</em>. Currently, I work as <em>a Physical AI Intern</em> at <em>SAP</em>, where I <em>am developing an AI powered solution for manufacturing</em>. 
-    With a background in <em>robotics and team management</em>, I've developed strong interests in <em>automation, space, and physics</em>.
-    Outside of work, I enjoy <em>art and music</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[chernobayv05@gmail.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    Hi! I'm <strong>Victoria</strong>, a <em>Computer Engineering</em> student at Toronto Metropolitan University dedicated to bridging the gap between <em>high-level AI software</em> and <em>low-level mechatronic hardware</em>. 
+    Currently, I am a <strong>Physical AI Lab Intern at SAP</strong>, where I architect autonomous industrial prototypes using <em>NVIDIA SoC</em> and <em>Edge Computing</em>.
+    <br/><br/>
+    As the <strong>Founder and Captain of FRC Team 9262</strong>, I led a team of 100+ students and raised over <strong>$60,000</strong> to build a 120lb competition robot that ranked 10th in the country. 
+    I am passionate about <strong>Sense-Think-Act</strong> loops, robotics, and the future of human-robot interaction. Let's connect!
 
 # # =====================================================
 # # 🎓 Education Section 
@@ -51,13 +42,8 @@ profile:
 education:
   - degree: "BEng (Hons) in Computer Engineering"
     school: "Toronto Metropolitan University"
-    years: "2025 - Present"
+    years: "2025 - 2030 (Expected)"
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/TMU_logo.svg/1280px-TMU_logo.svg.png"
-
-  - degree: "Ontario Secondary School Diploma (OSSD)"
-    school: "Humberside Collegiate Institute"
-    years: "2020 - 2022"
-    logo: "public/images/SWLogo-removebg-preview.png"
 
 # # =====================================================
 # # 💼 Work Experience Section 
@@ -67,81 +53,43 @@ workExperience:
   - title: "Physical AI Lab Intern"
     company: "SAP"
     years: "Jan 2026 - Present"
+    description: "Developing autonomous industrial processes using NVIDIA Jetson and DeepSeek. Optimizing hardware-software communication for sub-100ms latency."
     logo: "https://cubis.be/wp-content/uploads/2025/02/SAP_2011_logo.svg.png"
 
-  - title: "Team Captain, Electrical & Strategy Lead"
+  - title: "Founder, Team Captain & Electrical Lead"
     company: "FIRST Robotics - Team 9262"
-    years: "August 2022 - July 2025"
+    years: "Aug 2022 - July 2025"
+    description: "Independently established a team of 100+. Directed the design of a 120lb robot; secured $60k in sponsorships and achieved a Top 10 National ranking."
     logo: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/FIRST_Logo.svg/250px-FIRST_Logo.svg.png"
 
-  - title: "D-Shop Software Engineering Co-op Student"
+  - title: "Engineering Co-op Student"
     company: "SAP"
     years: "Jan 2024 – Jul 2024"
+    description: "Integrated GPT-4o and Google APIs into SAP BTP to automate developer workflows. Presented technical demos to 100+ stakeholders."
     logo: "https://cubis.be/wp-content/uploads/2025/02/SAP_2011_logo.svg.png"
+
+  - title: "Robotics Instructor"
+    company: "The Boulevard Club"
+    years: "Jul 2024 - Aug 2024"
+    description: "Developed and taught a technical curriculum covering C++ fundamentals and mechanical logic to 50+ students."
+    logo: "public/images/SWLogo-removebg-preview.png"
 
 # # =====================================================
 # # 🎤 Presentations / Talks Section 
 # # =====================================================
 
 talks:
-  - category: "TD Synnex Gala"
+  - category: "Keynote"
     title: "How Robotics Education Shaped my Future"
-    organization: "FIRST Canada"
+    organization: "TD Synnex Gala"
     date: "Oct 15, 2025"
     link: "https://www.instagram.com/p/DBND5mFuIv3"
     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
 
-  - category: "Workshop"
-    title: "How to Network"
-    organization: "FIRST Canada - Girls and Allies Conference"
-    date: "Nov 9, 2025"
-    link: "https://www.flickr.com/photos/firstcanada/albums/72177720321901483/"
-    image: "https://pm25.github.io/images/uiuc-workshop.webp"
-
-  - category: "Podcast"
-    title: "Windsor-Essex and McMaster FIRST Robotics Competition Recap"
-    organization: "FIRST Canada"
-    date: "Apr 1, 2025"
-    link: "https://www.youtube.com/watch?v=7Ul9qlsbtbI"
-    image: null
-    
-  - category: "Podcast"
-    title: "Centennial and Niagara College FRC Competition Recap"
-    organization: "FIRST Canada"
-    date: "Mar 11, 2025"
-    link: "https://www.youtube.com/watch?v=KnB5RduakzU"
-    image: null
-
-# # =====================================================
-# # 🛡️ Professional Services
-# # =====================================================
-
-services:
-  - category: "Misc"
-    role: "[Role]"
-    organization: "[Organization]"
-    date: "[Year]"
-    link: "https://example.com/workshop-talk"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Research"
-    role: "Reviewer"
-    organization: "TPAMI 2024, NeurIPS 2025"
-    date: "2024-2025"
-    link: null
-    image: null
-
-  - category: "Research"
-    role: "Program Committee Member"
-    organization: "CVPR 2022"
-    date: "2022"
-    link: null
-    image: null
-
-  - category: "Teaching"
-    role: "Teaching Assistant"
-    organization: "National Taiwan University - Data Structures & Algorithms"
-    date: "2021"
+  - category: "Technical Demo"
+    title: "AI Workflow Automation in Enterprise"
+    organization: "TDSB Teachers Conference"
+    date: "July 2024"
     link: null
     image: null
 
@@ -150,77 +98,49 @@ services:
 # # =====================================================
 
 skills:
-  Programming:
+  Hardware:
+    - name: "NVIDIA Jetson Nano"
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lkrqKUowZdLozuN9nWkiMpMtsNVqovkc4w&s"
+      proficiency: Advanced
+    - name: "SolidWorks / Onshape"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: Experienced
+    - name: "Arduino / Raspberry Pi"
+      logo: "https://pipedream.com/s.v0/app_mvNhoj/logo/orig"
+      proficiency: Expert
+
+  Software:
     - name: "Java"
       logo: "https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-svg-download-png-2945017.png?f=webp"
-      proficiency: Experienced
-      description: null
-
-    - name: "C"
+      proficiency: Expert
+    - name: "Python (OpenCV/Mediapipe)"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+      proficiency: Advanced
+    - name: "C / C++"
       logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
       proficiency: Experienced
-      description: null
 
-    - name: "HTML/CSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-      proficiency: Fluent
-      description: null
-
-  Web:
-    - name: "SAP BTB"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
-      proficiency: Advanced
-      description: null
-
-    - name: "Excel"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg/960px-Microsoft_Office_Excel_%282019%E2%80%932025%29.svg.png"
-      proficiency: Fluent
-      description: null
-
-    - name: "Google API"
-      logo: "https://pipedream.com/s.v0/app_mvNhoj/logo/orig"
-      proficiency: Fluent
-      description: null
-
-    - name: "GitHub"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
-      description: null
-
-  Machine Learning:
-    - name: "OpenAI"
-      logo: "https://www.svgrepo.com/show/306500/openai.svg"
-      proficiency: Experienced
-      description: null
-
-    - name: "Google Gemini"
+  Artificial Intelligence:
+    - name: "Google Gemini API"
       logo: "https://static.vecteezy.com/system/resources/previews/055/687/065/non_2x/gemini-google-icon-symbol-logo-free-png.png"
-      proficiency: Fluent
-      description: null
-
-    - name: "NVDIA "
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lkrqKUowZdLozuN9nWkiMpMtsNVqovkc4w&s"
-      proficiency: Fluent
-      description: null
-
-  Research:
-    - name: "Machine Learning"
+      proficiency: Expert
+    - name: "Computer Vision"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - Current
-      description: "General machine learning methods and applied research."
+      proficiency: Advanced
 
-    - name: "Physical AI"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2026 - Current
-      description: "Optimization of processes with the help of AI, utilizing NVDIA, OpenAI, and Google Gemini."
+# # =====================================================
+# # 🛡️ Professional Leadership (Renamed from Services)
+# # =====================================================
 
-  Language:
-    - name: "English"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Fluent
-      description: "Professional working proficiency."
+services:
+  - category: "Community"
+    role: "Fundraising Lead"
+    organization: "FIRST Canada Youth Council"
+    date: "2024-2025"
+    description: "Raised $300,000 for youth STEM initiatives."
 
-    - name: "Russian"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Native
-      description: "Native Fluency"
+  - category: "Education"
+    role: "Kode With Klossy Scholar"
+    organization: "The Boulevard Club"
+    date: "2023-2024"
+    description: "Scholarship recipient for Data Science and Web Development."
